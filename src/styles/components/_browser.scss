@@ -1,0 +1,24 @@
+.Browser {
+  &__bar {
+    height: 120px;
+    filter: blur(4px) contrast(50%) brightness(1.5);
+  }
+  &__url {
+    height: 40px;
+    border-radius: 4px;
+  }
+  &__symbol {
+    width: 30px;
+    height: 30px;
+    // animation: spin 4s linear infinite;
+  }
+}
+
+@keyframes spin {
+  0%{
+    transform: rotateZ(0deg);
+  }
+  100%{
+    transform: rotateZ(360deg);
+  }
+}

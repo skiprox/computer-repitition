@@ -1,0 +1,29 @@
+.Website {
+  top: 120px;
+  left: 0;
+  height: calc(100% - 120px);
+  background-size: cover;
+  background-position: center top;
+  filter: blur(10px) contrast(50%) brightness(1.5);
+  &.weather {
+    background-image: url('/static/images/weather.png');
+  }
+  &.amazon {
+    background-image: url('/static/images/amazon.png');
+  }
+  &.ebay {
+    background-image: url('/static/images/ebay.png');
+  }
+  &.reddit {
+    background-image: url('/static/images/reddit.png');
+  }
+  &.wikipedia {
+    background-image: url('/static/images/wikipedia.png');
+  }
+  &.yahoo {
+    background-image: url('/static/images/yahoo.png');
+  }
+  &.youtube {
+    background-image: url('/static/images/youtube.png');
+  }
+}
